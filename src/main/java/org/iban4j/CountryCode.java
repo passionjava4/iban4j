@@ -706,7 +706,7 @@ public enum CountryCode {
     UZ("Uzbekistan", "UZB"),
 
 
-    VA("Holy See", "VAT"),
+    VA("Vatican City State", "VAT"),
 
 
     VC("Saint Vincent and the Grenadines", "VCT"),

@@ -84,7 +84,7 @@ final class TestDataHelper {
                 {new Iban.Builder()
                             .countryCode(CountryCode.BY)
                             .bankCode("NBRB")
-                            .branchCode("3600")
+                            .accountType("3600")
                             .accountNumber("900000002Z00AB00")
                             .build(), "BY13NBRB3600900000002Z00AB00"},
                 {new Iban.Builder()
@@ -125,6 +125,12 @@ final class TestDataHelper {
                         .accountNumber("22102014568")
                         .nationalCheckDigit("5")
                         .build(), "EE382200221020145685"},
+                {new Iban.Builder()
+                        .countryCode(CountryCode.EG)
+                        .bankCode("0019")
+                        .branchCode("0005")
+                        .accountNumber("00000000263180002")
+                        .build(), "EG380019000500000000263180002"},
                 {new Iban.Builder()
                         .countryCode(CountryCode.FI)
                         .bankCode("123456")
@@ -171,6 +177,12 @@ final class TestDataHelper {
                         .accountNumber("6111110180000000")
                         .nationalCheckDigit("0")
                         .build(), "HU42117730161111101800000000"},
+                {new Iban.Builder()
+                        .countryCode(CountryCode.IQ)
+                        .bankCode("NBIQ")
+                        .branchCode("850")
+                        .accountNumber("123456789012")
+                        .build(), "IQ98NBIQ850123456789012"},
                 {new Iban.Builder()
                         .countryCode(CountryCode.IS)
                         .bankCode("0159")
@@ -425,6 +437,11 @@ final class TestDataHelper {
                         .bankCode("VPVG")
                         .accountNumber("0000012345678901")
                         .build(), "VG96VPVG0000012345678901"},
+                {new Iban.Builder()
+                        .countryCode(CountryCode.VA)
+                        .bankCode("001")
+                        .accountNumber("123000012345678")
+                        .build(), "VA59001123000012345678"},
                 {new Iban.Builder()
                         .countryCode(CountryCode.TL)
                         .bankCode("008")
